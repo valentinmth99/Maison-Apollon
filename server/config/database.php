@@ -2,9 +2,9 @@
 
 class Database {
     private $host = "localhost";
-    private $db_name = "votre_nom_de_base_de_donnees";
-    private $username = "votre_utilisateur";
-    private $password = "votre_mot_de_passe";
+    private $db_name = "maison_apollon";
+    private $username = "root";
+    private $password = "";
     public $conn;
 
     public function getConnection() {

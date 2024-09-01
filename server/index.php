@@ -1,5 +1,5 @@
 <?php
-
-require_once 'routes/api.php';
+include 'config/cors.php';
+include 'routes/api.php';
 
 ?>
